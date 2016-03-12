@@ -26,3 +26,4 @@ end
 
 S_w=S_B+S_F;
 S_b=(mu_B-mu_F)*(mu_B-mu_F)';
+
