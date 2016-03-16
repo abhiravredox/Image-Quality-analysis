@@ -4,7 +4,7 @@ load myDataSet.mat;
 %Calculating mu_b and mu_f.
 
 p=size(B,1);   %number of blurred and focused patches in dataset
-mu_B=zeros(8,8);
+mu_B=zeros(8,8);    %considering a patch of size 8X8.
 mu_F=zeros(8,8);
 for i=1:p
     mu_B=mu_B+B{i,1};
